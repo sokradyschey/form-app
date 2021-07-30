@@ -1,0 +1,33 @@
+body {
+  background-image: url(./background.png);
+  background-color: rgba(245, 99, 119, 0.815);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  body {
+    background-image: url(./background.png);
+    background-color: rgba(245, 99, 119, 0.815);
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.Container {
+  display: grid;
+  grid-template-columns: 50px auto auto 50px;
+  grid-template-rows: 50px auto 50px;
+}
+
+.Callout {
+  grid-column-start: 2;
+  grid-row-start: 2;
+} 
+
+.Trial {
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
