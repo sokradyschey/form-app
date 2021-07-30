@@ -11,6 +11,15 @@ function App() {
       <div className='Trial'>
         <p>Try for free for 7 days</p>
       </div>
+      <div className='Sign-up-form'>
+        <form>
+          <label>
+            Name:
+            <input type="text" name="name" />
+          </label>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
     </div>
   );
 }
